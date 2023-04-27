@@ -1,3 +1,12 @@
+![alt text](https://github.com/fauziafifnevandi/secretme/blob/main/ss/img/homepage.png)
+## About Secretme
+Secretme is a clone of the secreto website but uses f5 security to distinguish between users and visitors.
+* Flow Program : https://whimsical.com/secretme-apps-TBitoySkihpUk8ivjfWQPg
+* Database : https://dbdiagram.io/d/6422604b5758ac5f17249d8a
+* Demo : https://youtu.be/c2PSYQZUM0g
+#### Web
+![alt text](https://github.com/fauziafifnevandi/secretme/blob/main/ss/img/profile.png)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -6,17 +15,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-
-## About Secretme
-Secretme is a clone of the secreto website but uses f5 security to distinguish between users and visitors.
-Flow Program : https://whimsical.com/secretme-apps-TBitoySkihpUk8ivjfWQPg
-Database : https://dbdiagram.io/d/6422604b5758ac5f17249d8a
-Demo : https://youtu.be/c2PSYQZUM0g
-#### Web
-![alt text](https://github.com/fauziafifnevandi/secretme/blob/main/ss/img/homepage.png)
-![alt text](https://github.com/fauziafifnevandi/secretme/blob/main/ss/img/profile.png)
-
-
 
 ## About Laravel
 
