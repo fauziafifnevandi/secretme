@@ -2,8 +2,8 @@
 ## About Secretme
 Secretme is a clone of the secreto website but uses f5 security to distinguish between users and visitors.
 * Flow Program : https://whimsical.com/secretme-apps-TBitoySkihpUk8ivjfWQPg
-* Database : https://dbdiagram.io/d/6422604b5758ac5f17249d8a
-* Demo : https://youtu.be/c2PSYQZUM0g
+* Database     : https://dbdiagram.io/d/6422604b5758ac5f17249d8a
+* Demo         : https://youtu.be/c2PSYQZUM0g
 #### Web
 ![alt text](https://github.com/fauziafifnevandi/secretme/blob/main/ss/img/profile.png)
 
