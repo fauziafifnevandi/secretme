@@ -1,0 +1,280 @@
+.custom-container {
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+    padding-top: 70px;
+}
+
+.main-container {
+    z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Tambahkan padding ke elemen jika lebar layar kurang dari 600px */
+    .main-container {
+        padding: 10px 10px;
+    }
+}
+
+.main-header {
+    background-color: #fff;
+    padding: 10px;
+    max-width: 600px;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.main-header img {
+    width: 28px;
+    height: 28px;
+}
+
+.share-link-flex {
+    display: flex;
+    align-items: center;
+    padding: 0 5px 0 5px;
+}
+
+.share-link-flex textarea {
+    width: 100%;
+    height: 45px;
+    background-color: #8a8d9f;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: #e8f6ff;
+    margin-left: 10px;
+}
+
+.share-link-flex button {
+    margin-top: 15px;
+    width: 10%;
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 46px;
+}
+
+.register-box {
+    padding: 15px 10px;
+    max-width: 600px;
+    background-color: #e8f6ff;
+    margin: 0 auto 15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+ul {
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+ul li {
+    color: #8a8d9f;
+}
+
+.form-group {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #8a8d9f;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: #1d9bf0;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 50px;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: 500;
+    position: relative;
+    border: none;
+}
+
+.message-block {
+    max-width: 600px;
+    margin: auto;
+}
+
+.message-block .copy-text {
+    font-size: 14px;
+}
+
+.message-block .comments {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.message-block .comments p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #8a8d9f;
+}
+
+.message-block .title {
+    color: #333;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.message-child-block {
+    background-color: #f9f9ff;
+    padding: 15px 0 5px;
+    border-radius: 4px;
+}
+
+.main-message-box {
+    background-color: #fff;
+    padding: 10px 10px;
+    margin: 0 10px;
+    border-radius: 4px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.message-title p {
+    font-size: 14px;
+    color: #1d9bf0;
+    margin-bottom: 5px;
+}
+
+.main-message-box .message-text {
+    font-size: 14px;
+}
+
+.form-send-message {
+    position: relative;
+}
+
+.form-send-message form {
+    margin-bottom: 0px;
+}
+
+.form-send-message .form-group {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* .form-send-message .col-2 {
+    padding-left: 21px;
+} */
+
+.form-send-message button {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 0.8rem;
+    width: 60px;
+    height: 38px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Tambahkan padding ke elemen jika lebar layar kurang dari 600px */
+
+    .form-send-message button {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 0.8rem;
+        width: 90%;
+        height: 38px;
+    }
+}
+
+.comments .btn-edit button {
+    background-color: white;
+    position: absolute;
+    top: 4;
+    left: 498;
+    width: 4%;
+    height: 45%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.comments .btn-edit button i {
+    color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+    .comments .btn-edit button {
+        background-color: white;
+        position: absolute;
+        top: 4;
+        left: 320;
+        width: 4%;
+        height: 45%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.footer {
+    position: relative;
+    margin-top: 263px;
+}
+
+.footer-link {
+    border-top: lightgray solid 0.5px;
+    border-bottom: lightgray solid 0.5px;
+    margin-bottom: 10px;
+}
+
+.footer-link-top {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.footer-link-top li {
+    list-style-type: none;
+}
+
+.footer-link-top a {
+    text-decoration: none;
+    color: #8a8d9f;
+}
+
+.social-icon li {
+    list-style-type: none;
+}
+
+.social-icon li img {
+    width: 24px;
+}
